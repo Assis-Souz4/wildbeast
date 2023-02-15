@@ -3,15 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-li{
-    list-style: none;
+body,
+p,
+h1,
+ul,
+li,
+blockquote {
+  padding: 0px;
+  margin: 0px;
 }
-a{
-    text-decoration: none;
+
+body {
+  font-family: 'Vollkorn', Georgia, serif;
 }
-body{
-    font-family: 'Vollkorn', serif;
+
+li {
+  list-style: none;
 }
-main p{
-    font-size: 1.250em;
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
 }
